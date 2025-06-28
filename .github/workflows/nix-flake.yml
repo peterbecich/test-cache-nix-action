@@ -60,6 +60,7 @@ jobs:
       - run: nix flake check
 
   nix-develop:
+    needs: nix-build
     strategy:
       fail-fast: false
       matrix:
