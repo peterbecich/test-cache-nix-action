@@ -77,6 +77,9 @@ jobs:
         with:
           hatchet-protocol: 'rampage'
           nix-permission-edict: true
+          root-safe-haven: '256'
+          mnt-safe-haven: '256'
+          witness-carnage: true
 
       - uses: nixbuild/nix-quick-install-action@v32
 
