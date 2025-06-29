@@ -2,10 +2,8 @@ name: "Nix Flake"
 on:
   pull_request:
     branches:
-      - master
   push:
     branches:
-      - master
 jobs:
   nix-build:
     strategy:
@@ -60,7 +58,7 @@ jobs:
       - run: nix flake check
 
   nix-develop:
-    needs: nix-build
+    # needs: nix-build
     strategy:
       fail-fast: false
       matrix:
