@@ -73,13 +73,13 @@ jobs:
       actions: write
     steps:
       - uses: actions/checkout@v4
-      - uses: wimpysworld/nothing-but-nix@main
-        with:
-          hatchet-protocol: 'holster'
-          nix-permission-edict: true
-          root-safe-haven: '8192'
-          # mnt-safe-haven: ''
-          witness-carnage: true
+      # - uses: wimpysworld/nothing-but-nix@main
+      #   with:
+      #     hatchet-protocol: 'holster'
+      #     nix-permission-edict: true
+      #     root-safe-haven: '8192'
+      #     # mnt-safe-haven: ''
+      #     witness-carnage: true
 
       - uses: nixbuild/nix-quick-install-action@v32
 
