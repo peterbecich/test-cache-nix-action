@@ -1,6 +1,5 @@
-[haskell-flake](https://github.com/srid/haskell-flake)
 
-Copied from: https://github.com/srid/haskell-flake/tree/0.4.0/example
+Test of https://github.com/wimpysworld/nothing-but-nix
 
-[Documentation](https://zero-to-flakes.com/haskell-flake/)
+and https://github.com/nix-community/cache-nix-action
 
