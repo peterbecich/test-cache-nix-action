@@ -77,8 +77,8 @@ jobs:
         with:
           hatchet-protocol: 'holster'
           nix-permission-edict: true
-          root-safe-haven: '4096'
-          mnt-safe-haven: '256'
+          root-safe-haven: '8192'
+          # mnt-safe-haven: ''
           witness-carnage: true
 
       - uses: nixbuild/nix-quick-install-action@v32
